@@ -1,0 +1,14 @@
+node_modules/
+**/node_modules/
+dist/
+coverage/
+.env
+.env.*
+!.env.example
+.DS_Store
+npm-debug.log*
+
+# Local verification scripts
+/backend/test-e2e.js
+/backend/test-lab06.js
+/backend/seed.js
